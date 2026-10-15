@@ -305,7 +305,7 @@ variable "family" {
 }
 
 variable "inference_accelerator" {
-  description = "Configuration block(s) with Inference Accelerators settings"
+  description = "Ignored: AWS provider 6 removed inference_accelerator (Elastic Inference end of life). Kept so existing callers still validate"
   type        = any
   default     = {}
 }
